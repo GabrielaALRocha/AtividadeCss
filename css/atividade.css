@@ -1,0 +1,218 @@
+@font-face{
+    font-family: "harry";
+    src: url("/fonte/HARRYP__.TTF")
+}
+body {
+    background-color: #000000;
+}
+
+html {
+    padding: none;
+    margin: none;
+}
+
+.menu {
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.botao1 {
+    /* margin-top: 20px; */
+    width: 60px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: blanchedalmond;
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.botao1:hover {
+    background-color: #8C1A20;
+    border: 2px solid #000000;
+    padding: 6px;
+    margin: 3px;
+}
+
+.botao2 {
+
+    width: 60px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: blanchedalmond;
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.botao2:hover {
+    background-color: #2C812F;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 6px;
+    margin: 3px;
+}
+
+.botao3 {
+
+    width: 60px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: blanchedalmond;
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.botao3:hover {
+    background-color: #D59F0C;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 6px;
+    margin: 3px;
+}
+
+.botao4 {
+
+    width: 60px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: blanchedalmond;
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.botao4:hover {
+    background-color: #0A1737;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 6px;
+    margin: 3px;
+
+}
+
+.capa {
+    width: 100%;
+    height: 400px;
+}
+
+.titulo1 {
+    display: flex;
+
+    background-color: #8C1A20;
+    justify-content: center;
+    font-size: 20px;
+    font-family: harry ;
+    
+}
+.titulo2 {
+    display: flex;
+    background-color: #2C812F;
+    justify-content: center;
+    font-size: 20px;
+    font-family: harry ;
+}
+
+.titulo3 {
+    display: flex;
+    background-color: #D59F0C;
+    justify-content: center;
+    font-size: 20px;
+    font-family: harry ;
+}
+
+.titulo4 {
+    display: flex;
+    background-color: #0A1737;
+    justify-content: center;
+    font-size: 20px;
+    font-family: harry ;
+}
+
+.img1 {
+    padding-top: 30px;
+    width: 20%;
+    height: 150px;
+}
+.img2 {
+    padding-top: 60px;
+    width: 40%;
+    height: 250px;
+}
+
+.brasao {
+    margin-top: 30px;
+    height: 150px;
+}
+
+
+.up {
+    width: 5%;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+.txt1 {
+    color: antiquewhite;
+    margin: 60px;
+   
+}
+
+
+p{
+    display: inline-block;
+}
+.txtBrasao {
+    color: antiquewhite;
+    text-align: left;
+    margin: 15px;
+}
+
+.bloco1 {
+    display: flex;
+   padding-bottom: 20px;
+
+}
+.linha{
+
+    display: flex;
+}
+.coluna{
+    flex-direction: column;
+}
+
+.ajuste{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.jogos{
+    width: 165px;
+    height: 165px;
+    margin: 60px;
+}
+
+.final{
+
+    
+}
+.footer {
+    background-color: #000000;
+}
+
+.footer1 {
+    width: 100%;
+    height: 300px;
+    background-image: url(/img/niffler.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 30%;
+    opacity: 40%;
+    text-align: right;
+    color: antiquewhite;
+}
